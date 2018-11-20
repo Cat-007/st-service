@@ -1,0 +1,150 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 0; /*отступы внутрь*/
+	margin: 0; /*отступы наружу*/
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background: url(../img/logo.jpg) no-repeat center top / cover;
+	height: 974px; /*высота*/
+}
+
+.container {
+	width: 1450px;
+	margin: 0 auto;
+	border: 1px solid red;
+}
+
+.c-1 {
+	margin-top: 70px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+
+.c-2 {
+	font-size: 12px;
+	color: white;
+}
+
+.c-3 {
+	margin-top: 160px;
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: center; /*текст по центру*/
+}
+
+.c-4 {
+	margin: 10px 0 80px 0;
+	font-size: 24px;
+	color: white;
+	text-align: center; /*текст по центру*/
+}
+
+.c-5 {
+	margin-top: 80px;
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	height: 300px;
+}
+
+.c-11 {
+	margin-top: 80px;
+	font-size: 50px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.c-12 {
+	margin-top: 70px;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
+.c-13 {
+	margin-top: 70px;
+	font-size: 46px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.c-14 {
+	font-size: 24px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.c-15 {
+	font-size: 50px;
+	color: black;
+	margin-top: 60px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.c-16 {
+	font-size: 22px;
+	text-align: center;
+
+}
+
+.c-17 {
+	font-size: 18px;
+	color: grey;
+	text-align: center;
+}
+
+.menu-bottom li {
+	display: block;
+}
+
+.menu-bottom li a {
+	text-decoration: none;
+}
+
+.c-19 {
+	font-size: 12px;
+	text-align: center;
+	color: grey;
+	margin-bottom: 30px;
+}
+
+.c-19 a {
+	text-decoration: none;
+	color: black;
+}
+
+.button { /*кнопка КОНСУЛЬТАЦИЯ МАСТЕРА*/
+	border: 1px solid white;
+	color: white; /*цвет текста*/
+	display: block;
+	width: 300px; /*длина кнопки*/
+	padding: 20px 0;
+	margin: 0 auto;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button-1 { /*кнопка ПОЛУЧИТЬ ОТВЕТ*/
+	background: red;
+	color: white; /*цвет текста*/
+	display: block;
+	width: 240px; /*длина кнопки*/
+	padding: 20px 0;
+	margin: 0 auto;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin-bottom: 70px;
+}
